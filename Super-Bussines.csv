@@ -1,0 +1,6 @@
+KPI;Fórmula (Excel);Descripción;Resultado
+Ventas totales;" ""=SUMA(Ventas[Sales])"" ";Total de ingresos; $1.006.055.162,00 
+Ganancia total;" ""=SUMA('Sample - Superstore'!U:U)"" ";Suma de ganancia; $1.794.006.538,00 
+Cantidad de órdenes;" ""CONTARA(UNICOS(Ventas[Order ID]))"" ";Conteo de órdenes únicas;5009
+Ticket promedio;" ""SUM(Ventas[Sales])/COUNTA(UNIQUE(Ventas[Order ID]))"" ";Promedio de ingreso por orden; $ 200.849,50 
+Rentabilidad %;" ""=SUM(Ventas[Profit])/SUM(Ventas[Sales])"" ";Porcentaje de ganancia sobre ventas;178%
